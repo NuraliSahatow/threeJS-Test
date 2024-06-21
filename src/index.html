@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Model Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container"></div>
+    <div id="controls">
+        <select id="modelSelect">
+            <option value="models/Chair.glb">Chair</option>
+            <option value="models/GeoPlanter.glb">Geo Planter</option>
+            <option value="models/Mixer.glb">Mixer</option>
+            <option value="models/RobotExpressive.glb">Robot Expressive</option>
+        </select>
+        <input type="color" id="colorPicker" value="#ff0000">
+        <select id="animationSelect">
+        </select>
+    </div>
+    <script src="bundle.js"></script>
+</body>
+</html>
